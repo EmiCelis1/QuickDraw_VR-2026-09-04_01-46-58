@@ -1,0 +1,15 @@
+fileFormatVersion: 2
+guid: 807fadc22f615774b9013ff6e570f571
+NativeFormatImporter:
+  externalObjects: {}
+  mainObjectFileID: 2100000
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 398182
+  packageName: Wind VFX - URP
+  packageVersion: 1.0
+  assetPath: Assets/Vefects/Wind VFX URP/VFX/Materials/M_VFX_URP_Wind_Debris_Tree_Leaves_01_GS_02.mat
+  uploadId: 972086

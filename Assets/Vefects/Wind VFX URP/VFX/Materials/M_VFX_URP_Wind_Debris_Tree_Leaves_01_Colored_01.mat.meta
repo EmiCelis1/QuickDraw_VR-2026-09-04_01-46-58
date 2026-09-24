@@ -1,0 +1,15 @@
+fileFormatVersion: 2
+guid: e0dec4068bd884640b1bc54623bc67b1
+NativeFormatImporter:
+  externalObjects: {}
+  mainObjectFileID: 2100000
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 398182
+  packageName: Wind VFX - URP
+  packageVersion: 1.0
+  assetPath: Assets/Vefects/Wind VFX URP/VFX/Materials/M_VFX_URP_Wind_Debris_Tree_Leaves_01_Colored_01.mat
+  uploadId: 972086

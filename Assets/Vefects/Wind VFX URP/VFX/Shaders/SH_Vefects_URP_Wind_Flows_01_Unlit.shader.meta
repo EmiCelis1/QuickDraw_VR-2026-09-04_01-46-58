@@ -1,0 +1,20 @@
+fileFormatVersion: 2
+guid: a7a5ffe95cb04ff4abe75e969a811f8b
+ShaderImporter:
+  externalObjects: {}
+  defaultTextures:
+  - _OpacityTexture: {fileID: 2800000, guid: 254de4e2a5a56664bbe689eca0f56ea2, type: 3}
+  - _DistortionTexture: {fileID: 2800000, guid: 30a37b5a1ec94a54589643f0932dfd5f,
+      type: 3}
+  - _CutoutTexture: {fileID: 2800000, guid: da24a957fa453a349945780b37f8371b, type: 3}
+  nonModifiableTextures: []
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 398182
+  packageName: Wind VFX - URP
+  packageVersion: 1.0
+  assetPath: Assets/Vefects/Wind VFX URP/VFX/Shaders/SH_Vefects_URP_Wind_Flows_01_Unlit.shader
+  uploadId: 972086

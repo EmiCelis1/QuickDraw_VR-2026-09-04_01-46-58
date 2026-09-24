@@ -1,0 +1,94 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!21 &2100000
+Material:
+  serializedVersion: 8
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_Name: M_VFX_URP_Wind_Debris_Flower_Petals_01_GS_01
+  m_Shader: {fileID: 4800000, guid: d635fecedbcfbd842aa169bececddf5c, type: 3}
+  m_Parent: {fileID: 0}
+  m_ModifiedSerializedProperties: 0
+  m_ValidKeywords: []
+  m_InvalidKeywords: []
+  m_LightmapFlags: 4
+  m_EnableInstancingVariants: 1
+  m_DoubleSidedGI: 0
+  m_CustomRenderQueue: -1
+  stringTagMap: {}
+  disabledShaderPasses: []
+  m_LockedProperties: 
+  m_SavedProperties:
+    serializedVersion: 3
+    m_TexEnvs:
+    - _CutoutTexture:
+        m_Texture: {fileID: 2800000, guid: ffb32b131f1e4f9449960dd0aebfae91, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _LUT:
+        m_Texture: {fileID: 2800000, guid: a3950efc82e879545aa81e31571cb1e4, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _MainTexture:
+        m_Texture: {fileID: 2800000, guid: 89cd53fda3aaa4a4db195111347922be, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _MainTexture1:
+        m_Texture: {fileID: 2800000, guid: 2fe9887aabcb1b541893439f7bad5b3f, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _MaskTexture:
+        m_Texture: {fileID: 2800000, guid: 6468f0b9bbcff5344adafff9dae1b93d, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _texcoord:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - unity_Lightmaps:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - unity_LightmapsInd:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - unity_ShadowMasks:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    m_Ints: []
+    m_Floats:
+    - _AlphaCutoff: 0.5
+    - _CameraDepthFadeLength: 0.01
+    - _CameraDepthFadeOffset: 0
+    - _Cull1: 0
+    - _CutoutErosion: 0
+    - _CutoutMult: 1
+    - _CutoutPower: 1
+    - _CutoutSmoothness: 1
+    - _DepthFade: 0
+    - _DepthFadeLerp: 0
+    - _Dst1: 10
+    - _EmissionIntensity: 1
+    - _ErosionSmoothness: 0.001
+    - _LUTOffset: 0.2
+    - _LUTOffsetRandomness: 0
+    - _QueueControl: 0
+    - _QueueOffset: 0
+    - _Src1: 5
+    - _UVDLerp: 0.02
+    - _ZTest1: 2
+    - _ZWrite1: 0
+    m_Colors:
+    - _EmissionColor: {r: 1, g: 1, b: 1, a: 1}
+    - _LUTPanSpeed: {r: 0, g: 0, b: 0, a: 0}
+    - _Tint: {r: 1, g: 1, b: 1, a: 0}
+    - _UVDPan: {r: -0.1, g: 0.013, b: 0, a: 0}
+    - _UVDScale: {r: 0.333, g: 0.5, b: 0, a: 0}
+    - _UVPan: {r: 0, g: 0, b: 0, a: 0}
+    - _UVScale: {r: 1, g: 1, b: 0, a: 0}
+  m_BuildTextureStacks: []
+  m_AllowLocking: 1

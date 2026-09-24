@@ -1,0 +1,95 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!21 &2100000
+Material:
+  serializedVersion: 8
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_Name: M_VFX_URP_Wind_Flows_01_Unlit
+  m_Shader: {fileID: 4800000, guid: a7a5ffe95cb04ff4abe75e969a811f8b, type: 3}
+  m_Parent: {fileID: 0}
+  m_ModifiedSerializedProperties: 0
+  m_ValidKeywords: []
+  m_InvalidKeywords: []
+  m_LightmapFlags: 4
+  m_EnableInstancingVariants: 1
+  m_DoubleSidedGI: 0
+  m_CustomRenderQueue: -1
+  stringTagMap: {}
+  disabledShaderPasses: []
+  m_LockedProperties: 
+  m_SavedProperties:
+    serializedVersion: 3
+    m_TexEnvs:
+    - _CutoutTexture:
+        m_Texture: {fileID: 2800000, guid: da24a957fa453a349945780b37f8371b, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _DistortionTexture:
+        m_Texture: {fileID: 2800000, guid: 30a37b5a1ec94a54589643f0932dfd5f, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _OpacityTexture:
+        m_Texture: {fileID: 2800000, guid: 254de4e2a5a56664bbe689eca0f56ea2, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - unity_Lightmaps:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - unity_LightmapsInd:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - unity_ShadowMasks:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    m_Ints: []
+    m_Floats:
+    - _AddCutout: 0
+    - _AddPrecomputedVelocity: 1
+    - _AlphaCutoff: 0.5
+    - _CameraDepthFadeLength: 3
+    - _CameraDepthFadeOffset: 0
+    - _Cull: 0
+    - _DepthFade: 1
+    - _DepthFadeAdditive: 0
+    - _DistortionLerp: 0.03
+    - _Dst: 10
+    - _EmissionMultiply: 1
+    - _EnvironmentReflections: 1
+    - _ErosionCutoutSmoothness: 1
+    - _ErosionSmoothness: 1
+    - _FrBias: 0
+    - _FrPower: 1
+    - _FrScale: 1
+    - _Metallic: 0
+    - _QueueControl: 0
+    - _QueueOffset: 0
+    - _ReceiveShadows: 1
+    - _Smoothness: 0
+    - _Specular: 0
+    - _SpecularHighlights: 1
+    - _Src: 5
+    - _TextureColorMult: 0
+    - _TextureColorRealMult: 0
+    - _UsesCustomParameters: 1
+    - _XRMotionVectorsPass: 1
+    - _ZTest: 2
+    - _ZWrite: 0
+    m_Colors:
+    - _CutoutTextureChannel: {r: 0, g: 0, b: 1, a: 0}
+    - _CutoutTextureUVP: {r: 0, g: 0, b: 0, a: 0}
+    - _CutoutTextureUVS: {r: 1, g: 1, b: 0, a: 0}
+    - _DistortionTextureChannel: {r: 0, g: 1, b: 0, a: 0}
+    - _DistortionTextureUVP: {r: 0.1, g: 0.2, b: 0, a: 0}
+    - _DistortionTextureUVS: {r: 1, g: 5, b: 0, a: 0}
+    - _EmissionColor: {r: 1, g: 1, b: 1, a: 1}
+    - _OpacityTextureChannel: {r: 0, g: 1, b: 0, a: 0}
+    - _OpacityTextureUVP: {r: 0, g: -0.5, b: 0, a: 0}
+    - _OpacityTextureUVS: {r: 0.7, g: 1, b: 0, a: 0}
+  m_BuildTextureStacks: []
+  m_AllowLocking: 1

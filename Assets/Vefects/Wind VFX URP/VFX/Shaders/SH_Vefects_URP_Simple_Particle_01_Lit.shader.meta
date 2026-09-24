@@ -1,0 +1,16 @@
+fileFormatVersion: 2
+guid: 52f961e3dcd26f948bce1a62a70a9872
+ShaderImporter:
+  externalObjects: {}
+  defaultTextures: []
+  nonModifiableTextures: []
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 398182
+  packageName: Wind VFX - URP
+  packageVersion: 1.0
+  assetPath: Assets/Vefects/Wind VFX URP/VFX/Shaders/SH_Vefects_URP_Simple_Particle_01_Lit.shader
+  uploadId: 972086
