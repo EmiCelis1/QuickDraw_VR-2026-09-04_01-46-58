@@ -2,21 +2,25 @@ using UnityEngine;
 
 public class SimpleGunShoot : MonoBehaviour
 {
-    public GameObject bulletPrefab;
+    [Header("Referencias")]
     public Transform firePoint;
     public float bulletSpeed = 30f;
 
     public void Shoot()
     {
-        GameObject bullet = Instantiate(bulletPrefab, firePoint.position, firePoint.rotation);
+     
+        GameObject bullet = BulletManager.Instance.GetBullet();
 
+        
+        bullet.transform.position = firePoint.position;
+        bullet.transform.rotation = firePoint.rotation;
+
+        
         Rigidbody rb = bullet.GetComponent<Rigidbody>();
+
+        
         rb.linearVelocity = firePoint.forward * bulletSpeed;
 
-        Destroy(bullet, 2f);
-
+       
     }
-
-    
-
 }
