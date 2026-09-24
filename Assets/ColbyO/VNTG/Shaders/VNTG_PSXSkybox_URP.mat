@@ -1,0 +1,107 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &-8427043400181836172
+MonoBehaviour:
+  m_ObjectHideFlags: 11
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d0353a89b1f911e48b9e16bdc9f2e058, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Unity.RenderPipelines.Universal.Editor::UnityEditor.Rendering.Universal.AssetVersion
+  version: 10
+--- !u!21 &2100000
+Material:
+  serializedVersion: 8
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_Name: VNTG_PSXSkybox_URP
+  m_Shader: {fileID: -6465566751694194690, guid: 1de64af38ad918a479e9e5882f4d8f86, type: 3}
+  m_Parent: {fileID: 0}
+  m_ModifiedSerializedProperties: 0
+  m_ValidKeywords:
+  - _DITHERINGMETHOD_TEXTURERELATIVE
+  - _PROCEDUALSKYBOXMODE_FLAT_GRADIENT
+  - _SKYBOXMODE_PROCEDUAL
+  - _TEXTURESAMPLEMODE_POINT
+  m_InvalidKeywords:
+  - _DITHERINGMETHOD_TEXTURE_REL
+  m_LightmapFlags: 4
+  m_EnableInstancingVariants: 0
+  m_DoubleSidedGI: 0
+  m_CustomRenderQueue: 2000
+  stringTagMap:
+    RenderType: Opaque
+  disabledShaderPasses:
+  - MOTIONVECTORS
+  m_LockedProperties: 
+  m_SavedProperties:
+    serializedVersion: 3
+    m_TexEnvs:
+    - _MainTex:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _PaletteLUT:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _SkyboxCubemap:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - unity_Lightmaps:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - unity_LightmapsInd:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - unity_ShadowMasks:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    m_Ints: []
+    m_Floats:
+    - _ColorDepth: 32
+    - _DITHERINGMETHOD: 1
+    - _DitherScale: 0.299
+    - _DitherStrength: 0.202
+    - _EnableDithering: 1
+    - _EnableNebula: 0
+    - _EnableTextureDownsampling: 1
+    - _FlatGradientBottomAngle: 5
+    - _FlatGradientTopAngle: 15
+    - _HueShift: 0
+    - _LightnessMultiplier: 1
+    - _NebulaPeriod: 20
+    - _NebulaPower: 1
+    - _PROCEDUALSKYBOXMODE: 0
+    - _QueueControl: 0
+    - _QueueOffset: 0
+    - _SKYBOXMODE: 2
+    - _SaturationMultiplier: 1
+    - _SkyboxRotation: 0
+    - _StarDensity: 1
+    - _StarSharpness: 0
+    - _SurfaceType: 0
+    - _TEXTURESAMPLEMODE: 0
+    - _TextureResolution: 256
+    - _TextureResolutionScale: 1
+    - _UseColorQuantization: 1
+    - _UsePalette: 0
+    m_Colors:
+    - _BaseColor: {r: 1, g: 1, b: 1, a: 0}
+    - _FlatGradientBottomColor: {r: 1, g: 0.87094104, b: 0.73018867, a: 1}
+    - _FlatGradientTopColor: {r: 0.50377357, g: 0.9177784, b: 1, a: 1}
+    - _NebulaColor: {r: 0.4470588, g: 0.27058816, b: 0.50980395, a: 1}
+    - _Offset: {r: 0, g: 0, b: 0, a: 0}
+    - _Tiling: {r: 1, g: 1, b: 0, a: 0}
+  m_BuildTextureStacks: []
+  m_AllowLocking: 1
