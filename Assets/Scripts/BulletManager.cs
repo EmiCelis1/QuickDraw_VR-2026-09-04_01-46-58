@@ -6,9 +6,9 @@ public class BulletManager : MonoBehaviour
     public static BulletManager Instance { get; private set; }
 
     [Header("Configuración")]
-    [SerializeField] private GameObject bulletPrefab;
-    [SerializeField] private int defaultCapacity = 20;
-    [SerializeField] private int maxCapacity = 100;
+    [SerializeField] private GameObject _bulletPrefab;
+    [SerializeField] private int _defaultCapacity = 20;
+    [SerializeField] private int _maxCapacity = 100;
 
     private IObjectPool<GameObject> pool;
 
@@ -24,15 +24,15 @@ public class BulletManager : MonoBehaviour
             actionOnRelease: OnReleaseBullet,
             actionOnDestroy: OnDestroyBullet,
             collectionCheck: true,
-            defaultCapacity: defaultCapacity,
-            maxSize: maxCapacity
+            defaultCapacity: _defaultCapacity,
+            maxSize: _maxCapacity
         );
     }
 
    
     private GameObject CreateBullet()
     {
-        GameObject bullet = Instantiate(bulletPrefab);
+        GameObject bullet = Instantiate(_bulletPrefab);
         return bullet;
     }
 
